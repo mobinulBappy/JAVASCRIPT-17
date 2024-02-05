@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#counter{
+    height: 100vh;
+    background-color: #3c3c3c;
+}
+#counter .container{
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+}
+#counter button, #counter input{
+    padding: 10px;
+    text-align: center;
+}
+#counter button{
+    cursor: pointer;
+}
+/* *MOBILE NAV STARTS */
+#mobileNav{
+    height: 100vh;
+    background-color: cornflowerblue;
+    position: relative;
+}
+#mobileNav .btn{
+    width: 100px;
+    height: 50px;
+    background-color: #ff0008;
+    position: absolute;
+    right: 23px;
+    top: 30px;
+    cursor: pointer;
+}
+#mobileNav .bar{
+    height: 100vh;
+    width: 0px;
+    background-color: gold;
+    transition: 0.5s;
+}
+#mobileNav .bar.active{
+    width: 300px;
+}
+/* *MOBILE NAV ENDS */
+/* *range starts */
+#range{
+    height: 100vh;
+    background-color: cornsilk;
+}
+#range .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* *range ends */
